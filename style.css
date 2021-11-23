@@ -1,53 +1,61 @@
-.container{
-    width: 1024px;
-    min-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-header{
-    min-height: 100px;
+header {
+  min-height: 100px;
+  display: flex;
+  background-color: darkgreen;
 }
 
-main{
-    
-    min-height: 300px;
-    display: flex;
+.header_image{
+    justify-content: flex-start;
     align-items: center;
 }
 
-.cards{
-    min-height: 300px;
-    display: flex;
-    justify-content:space-between;
+.header_p {
+    align-items: center;
 }
 
-
-.card1{
-    background-color: rgb(227, 58, 137);
-    min-height: 300px;
-    width: 30%;
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
 }
 
-.card2{
-    background-color: rgb(240, 11, 118);
-    min-height: 300px;
-    width: 30%;
+.cards {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.card3{
-    background-color: rgb(125, 22, 70);
-    min-height: 300px;
-    width: 30%;
+.card1 {
+  background-color: rgb(227, 58, 137);
+  min-height: 300px;
+  width: 30%;
 }
 
-.herobox1{
-    width: 50%;
-    flex: 2;
+.card2 {
+  background-color: rgb(240, 11, 118);
+  min-height: 300px;
+  width: 30%;
 }
 
-.herobox2{
-    width: 50%;
-    flex: 1;
+.card3 {
+  background-color: rgb(125, 22, 70);
+  min-height: 300px;
+  width: 30%;
+}
+
+.herobox1 {
+  width: 50%;
+  flex: 2;
+}
+
+.herobox2 {
+  width: 50%;
+  flex: 1;
 }
