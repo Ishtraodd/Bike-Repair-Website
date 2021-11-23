@@ -9,10 +9,8 @@ header {
   min-height: 100px;
   display: flex;
   background-color: darkgreen;
-}
-
-header p{
-align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
 }
 
 main {
