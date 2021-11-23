@@ -11,13 +11,8 @@ header {
   background-color: darkgreen;
 }
 
-.header_image{
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.header_p {
-    align-items: center;
+header p{
+align-items: flex-end;
 }
 
 main {
