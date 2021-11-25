@@ -4,6 +4,8 @@ html {
 
 body {
   background-image: linear-gradient(#FC5E55, #FA4083 );
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .container {
