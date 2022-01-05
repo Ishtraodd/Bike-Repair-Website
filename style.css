@@ -112,7 +112,6 @@ p {
 }
 
 
-
 .mybutton {
   background-color: white;
   color: #FA4083;
@@ -124,10 +123,15 @@ p {
 
 a.mybutton {
   display: inline-block;
-  margin-top: 1
-  0px;
+  margin-top: 10px;
 }
 
-nav a.mybutton {
-  margin-left: 30px;
+.navbutton {
+  border-color: white;
+  border: solid;
+}
+
+a.navbutton{
+  padding: 10px 15px 10px 15px;
+  font-family: 'Playfair Display', serif;
 }
