@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#fc5e55, #fa4083);
-  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(#FC5E55, #FA4083);
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 1.125rem;
 }
@@ -13,6 +13,8 @@ a {
   color: white;
   text-decoration: none;
 }
+
+
 .container {
   width: 1024px;
   min-height: 300px;
@@ -21,14 +23,11 @@ a {
 }
 
 header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;}
 
 main {
   min-height: 300px;
@@ -47,8 +46,7 @@ main {
   background-size: cover;
   background-position: bottom;
   min-height: 250px;
-  width: 30%;
-  border-radius: 5px;
+  width: 30%;   
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
@@ -56,9 +54,8 @@ main {
   background-image: url(images/image-background-card2.jpg);
   background-size: cover;
   background-position: bottom;
-  min-height: 250px;
   width: 30%;
-  border-radius: 5px;
+  min-height: 250px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
@@ -66,16 +63,13 @@ main {
   background-image: url(images/image-background-card3.jpg);
   background-size: cover;
   background-position: bottom;
-  min-height: 250px;
   width: 30%;
-  border-radius: 5px;
+  min-height: 250px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
-.card1,
-.card2,
-.card3 {
-  padding: 30px 30px 20px 30px;
+.card1, .card2, .card3 {
+  padding: 30px 30px 20px 30px; 
   box-sizing: border-box;
 }
 
@@ -84,23 +78,21 @@ main {
   padding-right: 100px;
 }
 
-.herobox1 h1{
-  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.500);
-}
-
 .herobox2 {
   flex: 1;
+  
 }
 
 h1 {
-  font-size: 3.125rem;
-  font-family: "Playfair Display", serif;
+  font-size: 3.25rem;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
 }
 
 h2 {
   font-size: 2rem;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   margin-top: 20px;
 }
 
@@ -115,25 +107,27 @@ p {
   margin-top: 10px;
 }
 
-i {
+.cards i {
   font-size: 100px;
 }
 
-.myButton {
-  color: #fa4083;
-  font-family: "Playfair Display", serif;
+
+
+.mybutton {
   background-color: white;
-  display: inline-block;
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
-}
-
-a.myButton {
-  margin-top: 20px;
+  color: #FA4083;
+  font-family: 'Playfair Display', serif;
   padding: 11px 25px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
 }
 
-.herobox2 img {
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+a.mybutton {
+  display: inline-block;
+  margin-top: 1
+  0px;
+}
+
+nav a.mybutton {
+  margin-left: 30px;
 }
