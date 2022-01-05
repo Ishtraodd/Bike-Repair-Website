@@ -9,7 +9,7 @@ body {
   font-size: 1.125rem;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
@@ -48,7 +48,8 @@ main {
   background-position: bottom;
   min-height: 250px;
   width: 30%;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
 .card2 {
@@ -57,7 +58,8 @@ main {
   background-position: bottom;
   min-height: 250px;
   width: 30%;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
 .card3 {
@@ -66,10 +68,13 @@ main {
   background-position: bottom;
   min-height: 250px;
   width: 30%;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
-.card1, .card2, .card3{
+.card1,
+.card2,
+.card3 {
   padding: 30px 30px 20px 30px;
   box-sizing: border-box;
 }
@@ -79,28 +84,32 @@ main {
   padding-right: 100px;
 }
 
+.herobox1 h1{
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.500);
+}
+
 .herobox2 {
   flex: 1;
 }
 
 h1 {
   font-size: 3.125rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 1rem;
 }
 
-h2{
+h2 {
   font-size: 2rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 20px;
 }
 
-p{
+p {
   line-height: 1.75rem;
   margin-bottom: 0.5rem;
 }
 
-.cards p{
+.cards p {
   font-size: 0.85rem;
   line-height: 1.2rem;
   margin-top: 10px;
@@ -110,19 +119,21 @@ i {
   font-size: 100px;
 }
 
-.myButton{
+.myButton {
   color: #fa4083;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   background-color: white;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
 
-a.myButton{
+a.myButton {
   margin-top: 20px;
   padding: 11px 25px;
 }
 
-.herobox2 img{
-  border-radius: 10px;
+.herobox2 img {
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
 }
