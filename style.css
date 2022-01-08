@@ -43,6 +43,8 @@ main {
   padding-top: 50px;
 }
 
+
+
 .cards {
   display: flex;
   justify-content: space-between;
@@ -194,4 +196,8 @@ a.mybutton {
 .dropdown .navbutton {
   width: 140px;
   background-color: #073b4c;
+}
+
+.inputwrapper{
+  margin-bottom: 20px;
 }
